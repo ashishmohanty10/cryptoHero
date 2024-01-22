@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
+import Footer from "./components/Footer";
+import BelowFooter from "./components/BelowFooter";
 
 const App = () => {
   return (
@@ -11,6 +13,9 @@ const App = () => {
       <Home />
       <About />
       <Benefits />
+
+      <Footer />
+      <BelowFooter />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Navbar = () => {
             <img src={Logo} alt="" className="w-[80px]" />
           </div>
 
-          <ul className="flex justify-between items-center gap-x-5">
+          <ul className="hidden lg:flex justify-between items-center gap-x-5">
             {NavLinks.map(({ id, href }) => (
               <li
                 key={id}
@@ -23,7 +23,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="flex justify-between items-center gap-x-5">
+          <div className="hidden lg:flex justify-between items-center gap-x-5">
             <Buttons
               title={"LOGIN"}
               className="font-primary-font text-sm leading-relaxed tracking-wide text-white font-bold px-8 py-3 rounded-md bg-gradient-to-r from-pink-700 to-pink-500 hover:opacity-80"
