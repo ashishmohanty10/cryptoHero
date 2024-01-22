@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 
 const Navbar = () => {
   return (
-    <div className="bg-background sticky top-0">
+    <div className="bg-background sticky top-0 z-50">
       <div className="container">
         <div className="flex justify-between items-center py-5">
           <div>
