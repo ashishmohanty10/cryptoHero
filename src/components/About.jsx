@@ -31,7 +31,7 @@ const About = () => {
                 WHAT IS CRYPTOHERO
               </h3>
 
-              <a href="" class="text-slate-100">
+              <a href="" className="text-slate-100">
                 <FaArrowCircleDown
                   size={18}
                   className="animate-bounce hover:text-blue-500 duration-200"
@@ -54,16 +54,16 @@ const About = () => {
               </p>
 
               <div>
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <AiOutlineAim className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       OUR AIM
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       At CryptoHero, our aim is to democratize and simplify
                       cryptocurrency, making it accessible and understandable
                       for individuals of all backgrounds. We strive to provide a
@@ -74,16 +74,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <FaEyeLowVision className=" text-sub-heading text-3xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       OUR VISION
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       At CryptoHero, we envision a future where financial
                       empowerment is accessible to all through cryptocurrency.
                       We aim to provide a user-friendly, secure, and transparent
@@ -93,16 +93,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <SiFuturelearn className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       THE FUTURE
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       In the future, CryptoHero will be your trusted guide to a
                       more inclusive and decentralized financial world, where
                       financial empowerment and opportunities are accessible to
@@ -114,7 +114,7 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="hidden lg:block">
             <img src={WhatImg} alt="" />
           </div>
         </div>
@@ -122,7 +122,7 @@ const About = () => {
         {/* About CryptoHero */}
 
         <div className="lg:grid grid-cols-2 justify-between items-center">
-          <div>
+          <div className="hidden lg:block">
             <img src={AboutImg} alt="" />
           </div>
 
@@ -132,7 +132,7 @@ const About = () => {
                 ABOUT US
               </h3>
 
-              <a href="" class="text-slate-100">
+              <a href="" className="text-slate-100">
                 <FaArrowCircleDown
                   size={18}
                   className="animate-bounce hover:text-blue-500 duration-200"
@@ -193,7 +193,7 @@ const About = () => {
                 CONTRACTS
               </h3>
 
-              <a href="" class="text-slate-100">
+              <a href="" className="text-slate-100">
                 <FaArrowCircleDown
                   size={18}
                   className="animate-bounce hover:text-blue-500 duration-200"
@@ -213,16 +213,16 @@ const About = () => {
               </p>
 
               <div>
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <MdEnhancedEncryption className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       Encryption
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       CryptoHero employs advanced encryption protocols to
                       protect your data and transactions, ensuring that
                       sensitive information remains confidential.
@@ -230,16 +230,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <SiWebauthn className=" text-sub-heading text-3xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       Two-Factor Authentication (2FA):
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       Two-factor authentication adds an additional layer of
                       security by requiring a second verification step,
                       typically via a mobile app or text message, to access your
@@ -248,16 +248,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <TiCloudStorage className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       Cold Storage
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       The platform stores a significant portion of users' funds
                       in cold storage, which is not connected to the internet,
                       making it highly resistant to hacking attempts.
@@ -268,7 +268,7 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="hidden lg:block">
             <img src={WhatImg} alt="" />
           </div>
         </div>
@@ -276,7 +276,7 @@ const About = () => {
         {/* Automation */}
 
         <div className="lg:grid grid-cols-2 justify-between items-center">
-          <div>
+          <div className="hidden lg:block">
             <img src={Automation} alt="" />
           </div>
 
@@ -286,7 +286,7 @@ const About = () => {
                 CONTRACTS
               </h3>
 
-              <a href="" class="text-slate-100">
+              <a href="" className="text-slate-100">
                 <FaArrowCircleDown
                   size={18}
                   className="animate-bounce hover:text-blue-500 duration-200"
@@ -303,16 +303,16 @@ const About = () => {
               </p>
 
               <div>
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <AiFillTrademarkCircle className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       Effortless Trading
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       CryptoHero's automation simplifies trading by allowing
                       users to set predefined strategies, reducing the need for
                       constant monitoring.
@@ -320,16 +320,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <FaCheckDouble className=" text-sub-heading text-3xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       24/7 Availability
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       Automation ensures that you can take advantage of market
                       opportunities around the clock, even when you're not
                       actively engaged in trading.
@@ -337,16 +337,16 @@ const About = () => {
                   </div>
                 </div>
 
-                <div class="flex justify-start items-center gap-x-5">
+                <div className="flex justify-start items-center gap-x-5">
                   <div>
                     <RiSkull2Fill className="text-sub-heading text-4xl animate-pulse" />
                   </div>
 
                   <div>
-                    <h4 class="text-sub-heading font-primary-font font-semibold text-xl">
+                    <h4 className="text-sub-heading font-primary-font font-semibold text-xl">
                       Risk Management
                     </h4>
-                    <p class="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
+                    <p className="text-base font-normal text-second-text-color md:text-justify font-primary-font mb-8">
                       Automation can help manage risk by enforcing predefined
                       stop-loss and take-profit orders, preventing significant
                       losses and securing profits.
