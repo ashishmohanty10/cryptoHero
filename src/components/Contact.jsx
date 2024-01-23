@@ -29,7 +29,7 @@ const Contact = () => {
               name="name"
               required
               placeholder="Your name"
-              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none roumded-md md:w-[500px] w-[250px]  border border-slate-100"
+              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md md:w-[500px] w-[250px]  border border-slate-100"
             />
 
             <input
@@ -37,11 +37,12 @@ const Contact = () => {
               name="email"
               required
               placeholder="E-mail"
-              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none roumded-md md:w-[500px] w-[250px]  border border-slate-100"
+              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md md:w-[500px] w-[250px]  border border-slate-100"
             />
 
             <textarea
               name="Description"
+              placeholder="Description"
               required
               id=""
               cols="30"
@@ -50,6 +51,7 @@ const Contact = () => {
             ></textarea>
 
             <Buttons
+              title={"Submit"}
               className="font-primary-font text-sm leading-relaxed tracking-wide text-white font-bold px-8 py-3 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:opacity-80"
               type="submit"
             />
