@@ -22,13 +22,13 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Your name"
-              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md w-[300px] border border-slate-100"
+              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none roumded-md md:w-[500px] w-[250px]  border border-slate-100"
             />
 
             <input
               type="email"
               placeholder="E-mail"
-              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md w-[300px] border border-slate-100"
+              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none roumded-md md:w-[500px] w-[250px]  border border-slate-100"
             />
 
             <textarea
@@ -36,7 +36,7 @@ const Contact = () => {
               id=""
               cols="30"
               rows="10"
-              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md w-[300px] border border-slate-100"
+              className="mb-4 py-2 px-2 bg-transparent text-sub-heading text-lg outline-none rounded-md md:w-[500px] w-[250px]  border border-slate-100"
             ></textarea>
           </form>
         </div>

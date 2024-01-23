@@ -31,12 +31,12 @@ const Benefits = () => {
 
         <div>
           <div className="lg:grid grid-cols-2 justify-between items-center">
-            <div className="flex justify-between items-center">
+            <div className=" md:flex justify-between items-center">
               <div>
                 <img src={Simplicity} alt="" />
               </div>
 
-              <div>
+              <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
                 <h4 className="text-sub-heading font-primary-font font-semibold text-2xl pb-4">
                   SIMPLICITY
                 </h4>
@@ -48,12 +48,12 @@ const Benefits = () => {
               </div>
             </div>
 
-            <div className="flex justify-between items-center">
+            <div className=" md:flex justify-between items-center">
               <div>
                 <img src={Attributes} alt="" />
               </div>
 
-              <div>
+              <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
                 <h4 className="text-sub-heading font-primary-font font-semibold text-2xl pb-4">
                   DISTINCTIVE ATTRIBUTES
                 </h4>
@@ -67,12 +67,12 @@ const Benefits = () => {
           </div>
 
           <div className="lg:grid grid-cols-2 justify-between items-center">
-            <div className="flex justify-between items-center">
+            <div className=" md:flex justify-between items-center">
               <div>
                 <img src={Social} alt="" />
               </div>
 
-              <div>
+              <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
                 <h4 className="text-sub-heading font-primary-font font-semibold text-2xl pb-4">
                   SOCIAL ENGAGEMENT
                 </h4>
@@ -84,12 +84,12 @@ const Benefits = () => {
               </div>
             </div>
 
-            <div className="flex justify-between items-center">
+            <div className=" md:flex justify-between items-center">
               <div>
-                <img src={Simplicity} alt="" />
+                <img src={Security} alt="" />
               </div>
 
-              <div>
+              <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
                 <h4 className="text-sub-heading font-primary-font font-semibold text-2xl pb-4">
                   SAFE AND SECURE
                 </h4>
