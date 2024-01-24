@@ -42,21 +42,27 @@ const Navbar = () => {
           </div>
 
           {/* mobile responsive */}
-          <div className="lg:hidden">
-            <div>
+          <div className="lg:hidden" onClick={handleMenu}>
+            {!openMenu ? (
               <GiHamburgerMenu className="text-sub-heading" />
-            </div>
+            ) : (
+              <RxCross2 className="text-sub-heading" />
+            )}
 
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              {NavLinks.map(({ id, href }) => (
-                <li
-                  key={id}
-                  className="font-primary-font text-xs lg:text-lg lg:leading-relaxed font-medium text-second-text-color hover:text-sub-heading duration-200"
-                >
-                  {href}
-                </li>
-              ))}
-            </div>
+            {openMenu ? (
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                {NavLinks.map(({ id, href }) => (
+                  <li
+                    key={id}
+                    className="font-primary-font text-xs lg:text-lg lg:leading-relaxed font-medium text-second-text-color hover:text-sub-heading duration-200"
+                  >
+                    {href}
+                  </li>
+                ))}
+              </div>
+            ) : (
+              "null"
+            )}
           </div>
         </div>
       </div>
