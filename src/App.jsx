@@ -5,7 +5,7 @@ import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
 import BelowFooter from "./components/BelowFooter";
-import Pricing from "./components/Pricing";
+import { PricingCard } from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 
@@ -16,7 +16,7 @@ const App = () => {
       <Home />
       <About />
       <Benefits />
-      <Pricing />
+      <PricingCard />
       <FAQ />
       <Contact />
 
