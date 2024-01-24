@@ -4,6 +4,7 @@ import { NavLinks } from "./NavLinks";
 import Buttons from "./Buttons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -11,6 +12,7 @@ const Navbar = () => {
   const handleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
   return (
     <div className="bg-background sticky top-0 z-50">
       <div className="relative">
@@ -21,12 +23,20 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden lg:flex justify-between items-center gap-x-5">
-              {NavLinks.map(({ id, href }) => (
+              {NavLinks.map(({ href, title }) => (
                 <li
-                  key={id}
+                  key={href}
                   className="font-primary-font text-xs lg:text-lg lg:leading-relaxed font-medium text-second-text-color hover:text-sub-heading duration-200"
                 >
-                  {href}
+                  <Link
+                    to={href}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    {title}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -55,12 +65,12 @@ const Navbar = () => {
               <div>
                 {openMenu ? (
                   <div className="absolute m-auto left-0 right-0 w-[400px] h-[500] border border-sub-heading p-10 rounded-md bg-[#01051e63] backdrop-blur-sm flex justify-center items-center flex-col shadow-md z-50 ">
-                    {NavLinks.map(({ id, href }) => (
+                    {NavLinks.map(({ href, title }) => (
                       <li
-                        key={id}
+                        key={href}
                         className="mb-5 list-none font-primary-font text-xl lg:text-lg lg:leading-relaxed font-semibold text-slate-300 hover:text-sub-heading duration-200"
                       >
-                        {href}
+                        {title}
                       </li>
                     ))}
                   </div>

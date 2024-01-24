@@ -4,7 +4,7 @@ import HomeBottomSection from "./HomeBottomSection";
 
 const Home = () => {
   return (
-    <div>
+    <div name="home" className="py-10">
       <div className="container">
         <HomeTopSection />
 

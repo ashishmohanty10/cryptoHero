@@ -21,7 +21,7 @@ import Automation from "../assets/automation.png";
 
 const About = () => {
   return (
-    <div className="py-10">
+    <div name="about" className="py-10">
       <div className="container">
         {/* what is cryptohero */}
         <div className="lg:grid grid-cols-2 justify-between items-center">

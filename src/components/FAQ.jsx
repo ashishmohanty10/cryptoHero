@@ -13,7 +13,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="py-10">
+    <div name="faq" className="py-10">
       <div className="container">
         <div className="flex flex-col justify-center items-center">
           <div className="flex justify-center items-center gap-x-5 mb-5">
