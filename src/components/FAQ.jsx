@@ -18,7 +18,7 @@ const FAQ = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="flex justify-center items-center gap-x-5 mb-5">
             <h3 className="inline text-slate-200 text-xl px-8 py-3 bg-gradient-to-r from-pink-700 to-pink-500  rounded-full  font-primary-font font-bold leading-relaxed tracking-wider">
-              BENEFITS
+              FAQ
             </h3>
 
             <a href="" className="text-slate-100">

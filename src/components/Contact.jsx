@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="py-10">
       <div className="container">
         <div className="flex justify-center items-center gap-x-5 mb-5">
-          <h3 className="inline text-slate-200 text-xl px-8 py-3 bg-gradient-to-r from-pink-700 to-pink-500  rounded-full  font-primary-font font-bold leading-relaxed tracking-wider">
+          <h3 className="inline text-slate-200 text-xl px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500  rounded-full  font-primary-font font-bold leading-relaxed tracking-wider">
             CONTACT
           </h3>
 
