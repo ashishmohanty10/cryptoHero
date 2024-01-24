@@ -50,11 +50,11 @@ const Navbar = () => {
             )}
 
             {openMenu ? (
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="absolute m-auto left-0 right-0 w-full h-screen bg-primary-color">
                 {NavLinks.map(({ id, href }) => (
                   <li
                     key={id}
-                    className="font-primary-font text-xs lg:text-lg lg:leading-relaxed font-medium text-second-text-color hover:text-sub-heading duration-200"
+                    className="list-none font-primary-font text-xs lg:text-lg lg:leading-relaxed font-medium text-second-text-color hover:text-sub-heading duration-200"
                   >
                     {href}
                   </li>
